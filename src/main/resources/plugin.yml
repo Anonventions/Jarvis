@@ -1,0 +1,14 @@
+name: Jarvisplugin
+main: org.jarvisplugin.Jarvisplugin
+version: 1.0
+author: Amon, Axmon, DCUGITHUBZONE, KreatingMania [All aliases and etc]
+description: A Minecraft plugin that provides automated responses and commands triggered by specific chat messages, based off of Iron-Man, Jarvis.
+commands:
+  jarvisplugin.reload:
+    description: Reload the Jarvisplugin configuration
+    usage: /<command>
+    permission: jarvisplugin.reload
+permissions:
+  jarvisplugin.reload:
+    description: Allows to reload the Jarvisplugin configuration
+    default: op

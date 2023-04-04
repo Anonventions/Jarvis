@@ -1,0 +1,30 @@
+# Config file for Jarvisplugin
+# Set a custom welcome message for players joining the server
+welcomeMessage: "Welcome back to the server!"
+
+# Set a name for Jarvis
+jarvisName: "ģ"
+
+# Define the triggers and responses for Jarvis
+triggers:
+  greet:
+    trigger:
+      - "hi Jarvis"
+      - "hello Jarvis"
+    response: "Hello! How may I assist you?"
+    commands:
+      - "say Hello, world!"
+      - "give @p diamond 1"
+  how_are_you:
+    trigger:
+      - "how are you, Jarvis?"
+      - "how do you feel?"
+    response: "I'm just a program, but I'm functioning optimally, thank you for asking."
+    commands:
+  what_is_your_purpose:
+    trigger:
+      - "what's your purpose, Jarvis?"
+      - "what were you made for?"
+    response: "I was created to assist you in your tasks and make your life easier."
+    commands:
+      - "give @p compass 1"
